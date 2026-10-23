@@ -22,3 +22,5 @@ body{font-size:16px;line-height:1.85}
 .experience>div,.featured>div,.project{min-width:0}
 @media(max-width:850px){.experience{grid-template-columns:1fr;gap:15px}.featured{grid-template-columns:1fr;gap:10px}.project-grid{grid-template-columns:1fr}}
 @media(max-width:700px){body{font-size:15px}.project{padding:24px}.note,.project .note{font-size:14px}h2{letter-spacing:-.8px}.lead{font-size:21px}}
+
+.hero-actions{display:flex;flex-direction:column;gap:12px;flex-shrink:0}.hero-actions .button{text-align:center;font-weight:600}.button.secondary{background:transparent;border:1px solid var(--accent);color:var(--accent)}@media(max-width:700px){.hero-actions{align-items:flex-start;margin-top:20px}.hero-actions .button{margin-top:0}}
