@@ -24,3 +24,5 @@ body{font-size:16px;line-height:1.85}
 @media(max-width:700px){body{font-size:15px}.project{padding:24px}.note,.project .note{font-size:14px}h2{letter-spacing:-.8px}.lead{font-size:21px}}
 
 .hero-actions{display:flex;flex-direction:column;gap:12px;flex-shrink:0}.hero-actions .button{text-align:center;font-weight:600}.button.secondary{background:transparent;border:1px solid var(--accent);color:var(--accent)}@media(max-width:700px){.hero-actions{align-items:flex-start;margin-top:20px}.hero-actions .button{margin-top:0}}
+
+.mcp-project{margin-top:22px}.mcp-project>p{max-width:76ch}

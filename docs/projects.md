@@ -35,3 +35,9 @@
 
 - [서비스](https://seokgw.github.io/security-portfolio/meme-card-studio/)
 - [소스·테스트 안내](https://github.com/seokgw/security-portfolio/tree/main/meme-card-studio)
+
+## 5. MCP 서버 구성과 인증 연결
+
+서비스 실행 경로와 실제 배포 경로의 불일치를 복구하고, Nginx·HTTPS·Google OAuth·PKCE 기반 인증 게이트웨이를 연결한 사례입니다. 당시 서비스 기동·health·MCP initialize·도구 목록, 미인증 401과 인증 후 초기화 200, 인증서 갱신 dry-run, 클라이언트 로그인 성공이 기록됐습니다.
+
+사용자는 점검·복구를 요청하고 OAuth 승인에 참여했습니다. 구현·서버 설정·기술 검증은 AI 수행 범위이며, 세부 설정의 사용자 직접 수행 범위는 추가 확인이 필요합니다. 현재 운영 상태는 재검증하지 않았습니다.
