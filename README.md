@@ -2,7 +2,7 @@
 
 Java·Spring 기반 공공기관 웹 시스템의 기능 개선 경험과 개인 웹 프로젝트를 정리한 개발자용 포트폴리오입니다.
 
-- [포트폴리오 웹페이지](https://seokgw.github.io/developer-portfolio/)
+- 웹페이지: `index.html` (GitHub Pages 미게시)
 - [개발 경험과 프로젝트 상세](docs/projects.md)
 - [작성 근거와 검증 범위](docs/evidence.md)
 - [기존 보안 인프라 포트폴리오](https://seokgw.github.io/security-portfolio/)
@@ -33,4 +33,5 @@ HTML·CSS만 사용하여 빌드 없이 실행할 수 있습니다.
 python -m http.server 8000
 ```
 
-`http://localhost:8000`을 열거나 `index.html`을 직접 엽니다. GitHub Pages는 `main` 브랜치의 루트 디렉터리를 게시합니다.
+`http://localhost:8000`을 열거나 `index.html`을 직접 엽니다. GitHub Pages 게시 시 `main` 브랜치의 루트 디렉터리를 사용합니다. 현재 저장소는 비공개이며 웹 호스팅은 설정하지 않았습니다.
+
